@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import junit.framework.Assert;
 
-public class divyaassignment {
+public class ExcerciseOne {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -29,22 +29,5 @@ public class divyaassignment {
 	    driver.navigate().forward();
 	    driver.navigate().refresh();
 	    driver.close();
-	    System.out.println("Assert true");
-		Thread.sleep(3000);
-	
-		
-		
-		
-
-
-		
-		
-		
-		
-		
-
 	}
-
-
-
 }
